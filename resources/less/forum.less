@@ -1,0 +1,38 @@
+.MTFLearnWrap {
+    border: 1px solid black;
+}
+
+.MTFLearnWrapLabel {
+    position: absolute;
+    display: none;
+}
+
+.MTFLearnWrap:hover {
+    //border-width: 2px;
+
+    > .MTFLearnWrapLabel {
+        display: block;
+    }
+}
+
+.MTFLearnClass {
+    border-color: red;
+
+    > .MTFLearnWrapLabel {
+        background-color: red;
+    }
+}
+
+.MTFLearnMethod {
+    border-color: blue;
+
+    > .MTFLearnWrapLabel {
+        background-color: blue;
+        color: white;
+    }
+}
+
+.MTFLearnListItem {
+    display: inline-block;
+    color: green;
+}

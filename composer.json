@@ -1,0 +1,41 @@
+{
+    "name": "migratetoflarum/flarum-ext-learn",
+    "description": "Learn to extend your forum right in Flarum. Intended to be run locally only.",
+    "keywords": [
+        "extension",
+        "flarum",
+        "tutorial",
+        "learn"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/migratetoflarum/flarum-ext-learn/issues",
+        "source": "https://github.com/migratetoflarum/flarum-ext-learn"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Learn",
+            "icon": {
+                "name": "fas fa-graduation-cap",
+                "backgroundColor": "#e7672e",
+                "color": "#fafafa"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MigrateToFlarum\\Learn\\": "src/"
+        }
+    }
+}
